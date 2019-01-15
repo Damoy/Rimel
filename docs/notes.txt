@@ -1,0 +1,85 @@
+## Doc Rimel - Lundi 14 Janvier		  #
+## Notes et résumé du précédent cours #
+#######################################
+
+##########
+XWiki est un projet open source de grande enverdure.
+Github: https://github.com/xwiki
+Composantes:
+	# Go
+	1. xwiki-platform (main) ; 36.000 commits
+	2. xwiki-commons ; 4900 commits
+	3. xwiki-dev-tools (différents sous projets) ; 540 commits
+
+	# Osef
+	- xwiki-jenkins-slave (image docker pour Jenkins Slave, osef)
+	- xwiki-rendering (moteur de rendu) ; 1700 commits
+	- xwiki-jenkins-pipeline (Définit une bibliothèque globale Jenkins Pipeline)
+	- xwiki-clover-maven (trèfle différentiel)
+	- xwiki-jodconverter (automate de conversion de documents)
+
+Langages les plus utilisés:
+	- Java
+	- Groovy
+	- CSS
+
+On trouve aussi des fichiers:
+	- Docker
+	- Python
+	- JavaScript
+	- HTML
+	- AspectJ
+	- XSLT
+	- 
+
+Référencement Github:
+
+1. xwiki-platform
+	- Java ; 92.5%
+	- JavaScript ; 4%
+	- HTML ; 0.9%
+	- AspectJ ; 0.9%
+	- CSS ; 0.8%
+	- XSLT ; 0.4%
+	- Other ; 0.5%
+
+2. xwiki-commons
+	- Java ; 99.9%
+	- Other ; 0.1%
+
+3. xwiki-rendering
+	- Java ; 99.9%
+	- AspectJ ; 0.1%
+
+##########
+Avec cette multitude de langages et de types de fichiers différents, c'est pas évident ni forcément pertinent de tout tester.
+Des questions se posent:
+	- que faut-il tester ? 
+	- quelle partie d'un code ouvre à quelle issue ?
+	- quel sous-sujet choisir pour analyse ?
+	- comment identifier les tests dans un code ? (nommage de répertoire, utilisation de technologie dont la structure des tests est une convention, ex. maven, dossier tests)
+	- quel code est utilisé dans quelle proportion ?
+
+##########
+Hypothèse: Les zones chaudes (métrique à définir) de la cartographie d’un projet sont-elles celles qui posent le plus de problèmes ?
+
+Métrique: fréquence d'accès à un composant du système (xwiki-platform et éventuellement commons)
+
+##########
+Méthodologie de validation d'hypothèse:
+
+1. Etablir une code map.
+2. Installer XWiki et lancer des use-cases typiques prédéfinis.
+3. Utiliser un outil de trace Selenium. ; 
+4. Map Github / Jira issues avec la code trace et valider / invalider l'hypothèse
+##########
+
+
+####### Notes - 15/01/19 #######
+D'après V. Massol, les utilisateurs installent un XWiki Standard qui est un bundle d'extensions, toutes ces extensions comptent donc comme étant installées de base. On ne peut pas savoir lesquelles sont les plus utilisées.
+Ce qu'on peut savoir c'est quelles extensions additionnelles sont les plus installées. Nous vient donc l'hypothèse suivante:
+
+(Hypothèse: les extensions core ont toutes la même fréquence d'utilisation )
+
+Hypothèse: les extensions (features) xwiki additionnelles les plus installées sont celles les plus utilisées.
+################################
