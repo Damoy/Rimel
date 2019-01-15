@@ -66,9 +66,10 @@ Hypothèse: Les zones chaudes (métrique à définir) de la cartographie d’un 
 Métrique: fréquence d'accès à un composant du système (xwiki-platform et éventuellement commons)
 
 ##########
+TODO
 Méthodologie de validation d'hypothèse:
 
-1. Etablir une code map.
+1. Etablir une code map. [SKIP ; TODO]
 2. Installer XWiki et lancer des use-cases typiques prédéfinis.
 3. Utiliser un outil de trace Selenium. ; 
 4. Map Github / Jira issues avec la code trace et valider / invalider l'hypothèse
@@ -82,4 +83,10 @@ Ce qu'on peut savoir c'est quelles extensions additionnelles sont les plus insta
 (Hypothèse: les extensions core ont toutes la même fréquence d'utilisation )
 
 Hypothèse: les extensions (features) xwiki additionnelles les plus installées sont celles les plus utilisées.
+
+2.
+	- XWiki démo installé: xwiki-platform-distribution-flavor-jetty-hsqldb-9.11.8
+
+- Recherche de moyens afin d'établir un lien entre navigation uilisateur final / dev et composants (/ extensions) utilisées dans le but d'identifier les extensions "chaudes" (fréquence d'accès élevée).
+
 ################################
