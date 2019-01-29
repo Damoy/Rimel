@@ -1,0 +1,275 @@
+{
+  "_class" : "org.jenkinsci.plugins.workflow.job.WorkflowRun",
+  "actions" : [
+    {
+      "_class" : "hudson.model.CauseAction",
+      "causes" : [
+        {
+          "_class" : "hudson.model.Cause$UpstreamCause",
+          "shortDescription" : "Démarré par le projet amont \"XWiki/xwiki-rendering/master\" de numéro de build 863",
+          "upstreamBuild" : 863,
+          "upstreamProject" : "XWiki/xwiki-rendering/master",
+          "upstreamUrl" : "job/XWiki/job/xwiki-rendering/job/master/"
+        },
+        {
+          "_class" : "hudson.model.Cause$UpstreamCause",
+          "shortDescription" : "Démarré par le projet amont \"XWiki/xwiki-rendering/master\" de numéro de build 864",
+          "upstreamBuild" : 864,
+          "upstreamProject" : "XWiki/xwiki-rendering/master",
+          "upstreamUrl" : "job/XWiki/job/xwiki-rendering/job/master/"
+        }
+      ]
+    },
+    {
+      
+    },
+    {
+      "_class" : "jenkins.metrics.impl.TimeInQueueAction",
+      "blockedDurationMillis" : 12040947,
+      "blockedTimeMillis" : 12040947,
+      "buildableDurationMillis" : 0,
+      "buildableTimeMillis" : 519,
+      "buildingDurationMillis" : 10763108,
+      "executingTimeMillis" : 23585664,
+      "executorUtilization" : 2.19,
+      "subTaskCount" : 13,
+      "waitingDurationMillis" : 7290,
+      "waitingTimeMillis" : 7290
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      "_class" : "jenkins.scm.api.SCMRevisionAction"
+    },
+    {
+      
+    },
+    {
+      "_class" : "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName" : {
+        "master" : {
+          "_class" : "hudson.plugins.git.util.Build",
+          "buildNumber" : 1410,
+          "buildResult" : null,
+          "marked" : {
+            "SHA1" : "58132f718f810ced41de938702376b49defe3c19",
+            "branch" : [
+              {
+                "SHA1" : "58132f718f810ced41de938702376b49defe3c19",
+                "name" : "master"
+              }
+            ]
+          },
+          "revision" : {
+            "SHA1" : "58132f718f810ced41de938702376b49defe3c19",
+            "branch" : [
+              {
+                "SHA1" : "58132f718f810ced41de938702376b49defe3c19",
+                "name" : "master"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision" : {
+        "SHA1" : "58132f718f810ced41de938702376b49defe3c19",
+        "branch" : [
+          {
+            "SHA1" : "58132f718f810ced41de938702376b49defe3c19",
+            "name" : "master"
+          }
+        ]
+      },
+      "remoteUrls" : [
+        "https://github.com/xwiki/xwiki-jenkins-pipeline.git"
+      ],
+      "scmName" : ""
+    },
+    {
+      "_class" : "hudson.plugins.git.GitTagAction"
+    },
+    {
+      
+    },
+    {
+      "_class" : "hudson.plugins.git.util.BuildData",
+      "buildsByBranchName" : {
+        "master" : {
+          "_class" : "hudson.plugins.git.util.Build",
+          "buildNumber" : 1410,
+          "buildResult" : null,
+          "marked" : {
+            "SHA1" : "b9ef2b3847ca5539294dbc66fa786f250c6a3c36",
+            "branch" : [
+              {
+                "SHA1" : "b9ef2b3847ca5539294dbc66fa786f250c6a3c36",
+                "name" : "master"
+              }
+            ]
+          },
+          "revision" : {
+            "SHA1" : "b9ef2b3847ca5539294dbc66fa786f250c6a3c36",
+            "branch" : [
+              {
+                "SHA1" : "b9ef2b3847ca5539294dbc66fa786f250c6a3c36",
+                "name" : "master"
+              }
+            ]
+          }
+        }
+      },
+      "lastBuiltRevision" : {
+        "SHA1" : "b9ef2b3847ca5539294dbc66fa786f250c6a3c36",
+        "branch" : [
+          {
+            "SHA1" : "b9ef2b3847ca5539294dbc66fa786f250c6a3c36",
+            "name" : "master"
+          }
+        ]
+      },
+      "remoteUrls" : [
+        "https://github.com/xwiki/xwiki-platform.git"
+      ],
+      "scmName" : ""
+    },
+    {
+      
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.cps.EnvActionImpl"
+    },
+    {
+      "_class" : "hudson.tasks.junit.TestResultAction",
+      "failCount" : 69,
+      "skipCount" : 111,
+      "totalCount" : 11802,
+      "urlName" : "testReport"
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.pipeline.modeldefinition.actions.RestartDeclarativePipelineAction"
+    },
+    {
+      
+    },
+    {
+      "_class" : "org.jenkinsci.plugins.workflow.job.views.FlowGraphAction"
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    }
+  ],
+  "artifacts" : [
+    
+  ],
+  "building" : false,
+  "description" : null,
+  "displayName" : "#1410",
+  "duration" : 10763108,
+  "estimatedDuration" : 12245493,
+  "executor" : null,
+  "fullDisplayName" : "XWiki » xwiki-platform » master #1410",
+  "id" : "1410",
+  "keepLog" : false,
+  "number" : 1410,
+  "queueId" : 4491,
+  "result" : "UNSTABLE",
+  "timestamp" : 1548711148928,
+  "url" : "https://ci.xwiki.org/job/XWiki/job/xwiki-platform/job/master/1410/",
+  "changeSets" : [
+    
+  ],
+  "culprits" : [
+    {
+      "absoluteUrl" : "https://ci.xwiki.org/user/gdelhumeau",
+      "fullName" : "Guillaume Delhumeau"
+    },
+    {
+      "absoluteUrl" : "https://ci.xwiki.org/user/noreply",
+      "fullName" : "noreply"
+    },
+    {
+      "absoluteUrl" : "https://ci.xwiki.org/user/vmassol",
+      "fullName" : "Vincent Massol"
+    },
+    {
+      "absoluteUrl" : "https://ci.xwiki.org/user/enygma",
+      "fullName" : "Eduard Moraru"
+    },
+    {
+      "absoluteUrl" : "https://ci.xwiki.org/user/tmortagne",
+      "fullName" : "Thomas Mortagne"
+    }
+  ],
+  "nextBuild" : null,
+  "previousBuild" : {
+    "number" : 1409,
+    "url" : "https://ci.xwiki.org/job/XWiki/job/xwiki-platform/job/master/1409/"
+  }
+}
